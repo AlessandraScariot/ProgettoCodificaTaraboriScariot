@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prolusioni.xsl"?> 
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Intestazione che fornisce informazioni descrittive e dichiarative e che precede qualsiasi testo well-formed -->
+    <teiHeader>
+        <!-- Descrizione bibliografica completa del file -->
+        <fileDesc> 
+            <!--Raggruppa informazioni sul titolo dell'opera-->
+            <titleStmt>
+                <title xml:lang="fr" type="main">Trois premières conférences à l'Universitè</title>
+                <title xml:lang="fr" type="sub"> (cours d'ouverture,<date when="1891-11"> novembre 1891</date>)</title>
+                <title xml:lang="it" type="translation-main">Le tre prime conferenze all'Università</title>
+                <title xml:lang="it" type="translation-sub">(corso di apertura,<date when="1891-11"> novembre 1891</date>)</title>
+                <author ref="#FdS"> Ferdinand De Saussure</author>
+            </titleStmt>
+            <!-- Raggruppa le informazioni sull'edizione digitale-->
+            <editionStmt>
+                <edition>Edizione digitale - <date when="2022-07">Luglio 2022 </date></edition>
+                <respStmt>
+                    <resp>Codificato da </resp>
+                    <name ref="#DT">Daria Tarabori </name>
+                    <name ref="#AS">Alessandra Scariot </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name ref="#ADG">Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt> 
+                    <resp>Trascrizione di </resp> 
+                    <name ref="#SB">Simon Bouquet </name>
+                    <name ref="#RE">Rudolf Engler </name>
+                </respStmt>
+                <respStmt> 
+                    <resp>Traduzione di </resp> 
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt> 
+            </editionStmt>
+            <!--Riguarda le informazioni sulla pubblicazione e distribuzione-->
+            <publicationStmt>
+                <publisher> Università di Pisa</publisher>
+                <pubPlace ref="#pisa">Pisa</pubPlace>
+                <date when="2022"> 2022 </date>
+                <availability>
+                    <p> Questo documento digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+                </availability>    
+            </publicationStmt>
+            <!-- Descrizione della fonte originaria, in questo caso un manoscritto -->
+            <sourceDesc>
+                <msDesc>
+                    <!--Contiene informazioni utili all'identificazione del manoscritto esaminato-->
+                    <msIdentifier>
+                        <placeName>
+                            <country>Svizzera</country>                                                                                                                                                                                                                     
+                            <settlement ref="#geneve">Ginevra</settlement>                       
+                        </placeName>
+                        <repository ref="http://institutions.ville-geneve.ch/fr/bge/" role="library">Biblioteca di Ginevra</repository>
+                        <collection>Archivi Ferdinand de Saussure</collection>
+                        <idno>3951/1</idno>
+                    </msIdentifier> 
+                    <!--Descrive il contenuto intellettuale del manoscritto --> 
+                    <msContents>
+                        <msItem>
+                            <author ref="#FdS">Ferdinand De Saussure</author>
+                            <title>Trois premières conférences à l'Universitè</title>
+                            <textLang mainLang="fr">Francese</textLang>
+                            <docDate when="1891-11">Novembre 1891</docDate>
+                        </msItem>
+                    </msContents>
+                    <!-- Contiene la descrizione fisica del manoscritto-->
+                    <physDesc>
+                        <objectDesc form="sheet">
+                            <supportDesc material="paper">
+                                <support>fogli di <material>carta </material>a quadretti, a righe e bianchi </support>
+                                <extent>precisamente di 30 + 15 + 22 pagine, ovvero 67 pagine, + 1 foglietto.
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                                        <measure quantity="30">30 pagine + </measure>
+                                        <measure quantity="15">15 pagine + </measure>
+                                        <measure quantity="22">22 pagine + </measure>
+                                        <measure quantity="1">1 foglietto </measure>
+                                        <measure quantity="67"> 67 pagine totali</measure>
+                                    </measureGrp>
+                                </extent>
+                                <foliation><p>La maggior parte delle pagine sono numerate con numerazione araba in alto a destra o sinistra. </p></foliation>  
+                                <condition><p>Il manoscritto è ben conservato nonostante delle macchie di inchiostro e del tempo su alcune pagine.</p></condition>     
+                            </supportDesc>
+                            <!--Raccoglie l'insieme delle descrizioni relative all'impaginazione del manoscritto-->
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="0 35">
+                                    <p> Nel manoscritto ci sono poche pagine vuote, mentre le restanti arrivano fino ad un massimo di 35 righe. </p> 
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--Descrizione dei tipi di scrittura usati nel manoscritto-->
+                        <handDesc hands="1">
+                            <p>Il documento è stato scritto integralmente da <persName ref="#FdS">Ferdinand De Saussure.</persName></p>   
+                            <p>Scritto in corsivo, con aggiunte, cancellature e sottolineature.</p>
+                        </handDesc>
+                        <!--Descrizione delle aggiunte nel manoscritto-->
+                        <additions>
+                            <p>Ci sono molteplici aggiunte che si trovano a margine sinistro o destro, sopra la riga o sotto la riga.</p>
+                        </additions>
+                    </physDesc>
+                    <!--Raggruppa gli elementi che descrivono la storia del manoscritto-->
+                    <history source="https://www.jstor.org/stable/41427851">
+                        <origin>
+                            <p>Questi appunti sono stati scritti durante le prime tre lezioni del corso di fonetica greca e latina, primo corso tenuto da 
+                                <persName ref="#FdS">Saussure</persName> all'Università di Ginevra nell'anno accademico 
+                                <date when="1891">1891</date>-<date when="1892">1892</date>. Le conferenze si sono svolte da <date when="1891-11-06">venerdì 6 novembre 1891</date>
+                                a <date when="1891-11-10">martedì 10 novembre 1891</date>. Probabilmente la terza conferenza si è tenuta <date when="1891-11-13">venerdì 13</date> o 
+                                <date when="1891-11-17">martedì 17 novembre 1891.</date>
+                            </p>
+                        </origin>
+                        <acquisition>
+                            <p>Il manoscritto originale è stato donato in seguito alla Biblioteca di <placeName ref="#geneve">Ginevra</placeName></p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--Descrizione della codifica-->
+        <encodingDesc>
+            <projectDesc>
+                <p>Questa edizione digitale è stata realizzata per il corso di Codifica di Testi nell'anno accademico <date when="2021">2021</date>-<date when="2022">2022</date>.</p>
+            </projectDesc>
+        </encodingDesc>
+        <!--Descrizione degli aspetti non bibliografici del testo-->
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <textDesc n="manuscript"> <!-- deve contenere tutti questi tag obbligatoriamente -->
+                <channel mode="w"/> <!-- mezzo di trasmissione del testo written -->
+                <constitution type="single"/> <!--unico testo completo-->
+                <derivation type="original"/> <!--la natura del testo se originale o meno -->
+                <domain type="education"/> <!--contesto sociale in cui il testo è stato prodotto, contesto educativo-->
+                <factuality type="fact"/> <!--testo di invenzione o meno-->
+                <interaction type="none" active="singular" passive="group"/> <!--l'interazione tra coloro che producono e ricevono il testo-->
+                <preparedness type="none"/> <!--se il testo può essere considerato preparato o spontaneo -->
+                <purpose type="inform" degree="high"/> <!--scopo educativo del testo altamente predominante-->
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <name>
+                        <placeName>Ginevra</placeName>, <country>Svizzera</country>.
+                    </name>
+                    <time>
+                        <date when="1891-11">Novembre 1891</date>
+                    </time>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <!--costituisce una rappresentazione digitale di una fonte con testo scritto espressa attraverso un insieme di immagini-->
+    <facsimile>
+        <!--Pagina 4-->
+        <surface n="4" xml:id="Pag4_scan">
+            <graphic url="immagini/pg_4_86.jpg" xml:id="pag4f" width='6047.5px' height='4031.5px'/>
+            <zone ulx="835" uly="228" lrx="3099" lry="3688" xml:id="Pag4">
+                <zone ulx="861" uly="249" lrx="1099" lry="489" rendition="hotspot" xml:id="facs_numero-di-pagina-4"/>
+                <zone ulx="1083" uly="338" lrx="2942" lry="514" rendition="line" xml:id="Pag4_Riga1"/>
+                <zone ulx="1297" uly="517" lrx="3027" lry="704" rendition="line" xml:id="Pag4_Riga2"/>
+                <zone ulx="1267" uly="693" lrx="3036" lry="845" rendition="line" xml:id="Pag4_Riga3"/>
+                <zone ulx="1273" uly="840" lrx="3033" lry="984" rendition="line" xml:id="Pag4_Riga4"/>
+                <zone ulx="881" uly="965" lrx="3003" lry="1133" rendition="line" xml:id="Pag4_Riga5"/>
+                <zone ulx="839" uly="1114" lrx="3011" lry="1253" rendition="line" xml:id="Pag4_Riga6"/>
+                <zone ulx="1275" uly="1217" lrx="3027" lry="1418" rendition="line" xml:id="Pag4_Riga7"/>
+                <zone ulx="1230" uly="1385" lrx="2887" lry="1575" rendition="line" xml:id="Pag4_Riga8"/>
+                <zone ulx="1258" uly="1504" lrx="3027" lry="1713" rendition="line" xml:id="Pag4_Riga9"/>
+                <zone ulx="1303" uly="1658" lrx="2970" lry="1857" rendition="line" xml:id="Pag4_Riga10">
+                    <zone points = ' 899,1775 902,1863 1211,1845 1185,1743 ' rendition="hotspot" xml:id="add1_riga1"/>
+                    <zone points = ' 916,1863 1182,1837 1195,1901 915,1927 ' rendition="hotspot" xml:id="add1_riga2"/>
+                    <zone ulx="1014" uly="1905" lrx="1073" lry="1948" rendition="hotspot" xml:id="add1_riga3"/>
+                    <zone ulx="927" uly="1942" lrx="1159" lry="2057" rendition="hotspot" xml:id="add1_riga4"/>
+                </zone>
+                <zone ulx="1288" uly="1800" lrx="2979" lry="2064" rendition="line" xml:id="Pag4_Riga11"/>
+                <zone ulx="1327" uly="2025" lrx="2907" lry="2207" rendition="line" xml:id="Pag4_Riga12"/>
+                <zone ulx="1338" uly="2147" lrx="2929" lry="2350" rendition="line" xml:id="Pag4_Riga13"/>
+                <zone points = ' 1298,2367 1301,2491 1487,2470 1693,2449 1864,2429 1978,2430 2045,2433 
+                                2117,2416 2167,2436 2247,2411 2340,2396 2427,2376 2519,2371 2625,2366 2678,2361 
+                                2738,2375 2801,2353 2836,2360 2906,2365 2930,2377 2944,2401 3008,2383 3019,2308 2947,2242 
+                                2849,2235 2676,2236 2605,2260 2517,2255 2429,2271 2314,2294 2225,2315 2137,2294 2072,2299 
+                                1993,2312 1934,2317 1880,2318 1799,2327 1736,2338 1664,2337 1573,2338 1489,2370 1414,2365 
+                                1347,2362 ' rendition="line" xml:id="Pag4_Riga14"/>
+                <zone points = ' 1311,2513 1692,2446 1990,2422 2166,2432 2363,2396 2478,2391 2690,2379 2856,2367 2997,2417 
+                                2915,2469 2812,2481 2757,2446 2714,2465 2646,2467 2528,2469 2472,2515 2409,2473 2324,2483 
+                                2219,2497 2116,2505 2072,2533 2023,2533 1978,2515 1876,2523 1803,2536 1702,2537 1612,2553 
+                                1539,2566 1477,2578 1401,2596 1333,2586 1293,2548 ' rendition="line" xml:id="Pag4_Riga15"/>
+                <zone points = ' 1280,2598 1260,2675 1291,2713 1355,2695 1488,2673 1619,2653 1749,2645 1845,2632 1970,2627 
+                                2110,2637 2222,2635 2325,2641 2494,2651 2651,2632 2805,2630 2928,2626 3050,2635 3075,2580 
+                                3051,2532 3032,2475 2957,2467 2856,2461 2795,2479 2724,2452 2691,2471 2621,2463 2531,2471 
+                                2491,2511 2442,2503 2373,2489 2293,2489 2244,2504 2162,2498 2117,2520 2045,2534 1974,2530 
+                                1877,2512 1828,2541 1751,2545 1680,2549 1579,2567 1464,2577 1371,2596 ' rendition="line" xml:id="Pag4_Riga16"/>
+                <zone ulx="830" uly="3368" lrx="2515" lry="3552" rendition="line" xml:id="Pag4_Riga17"/>
+                <zone ulx="851" uly="3259" lrx="2662" lry="3346" rendition="line" xml:id="Pag4_Riga18"/>
+                <zone ulx="827" uly="3138" lrx="2667" lry="3244" rendition="line" xml:id="Pag4_Riga19"/>
+                <zone ulx="840" uly="3035" lrx="2658" lry="3140" rendition="line" xml:id="Pag4_Riga20"/>
+                <zone ulx="827" uly="2902" lrx="2656" lry="3035" rendition="line" xml:id="Pag4_Riga21"/>
+                <zone ulx="849" uly="2781" lrx="3072" lry="2935" rendition="line" xml:id="Pag4_Riga22"/>
+                <zone ulx="2393" uly="2675" lrx="2667" lry="2784" rendition="line" xml:id="Pag4_Riga23"/>
+            </zone>
+        </surface>
+        <!--Pagina 5-->
+        <surface n="5" xml:id="Pag5_scan">
+            <graphic url="immagini/pg_5_87.jpg"  xml:id="pag5f" width='6047.8px' height='4031.8px'/>
+            <zone ulx="1910" uly="194" lrx="4199" lry="3837" xml:id="Pag5">
+                <zone ulx="1913" uly="197" lrx="2121" lry="407" rendition="hotspot" xml:id="facs_numero-di-pagina-5"/>
+                <zone ulx="2164" uly="203" lrx="4177" lry="397" rendition="line" xml:id="Pag5_Riga1"/>
+                <zone ulx="2108" uly="351" lrx="4179" lry="472" rendition="line" xml:id="Pag5_Riga2"/>
+                <zone ulx="2137" uly="468" lrx="4081" lry="597" rendition="line" xml:id="Pag5_Riga3"/>
+                <zone ulx="2178" uly="562" lrx="4199" lry="688" rendition="line" xml:id="Pag5_Riga4"/>
+                <zone ulx="2172" uly="675" lrx="4134" lry="802" rendition="line" xml:id="Pag5_Riga5"/>
+                <zone ulx="2164" uly="763" lrx="4178" lry="886" rendition="line" xml:id="Pag5_Riga6"/>
+                <zone points = ' 2203,1038 4158,936 4158,866 3128,858 2224,906 ' rendition="line" xml:id="Pag5_Riga7"/>
+                <zone points = ' 2186,1126 3529,1072 4200,1080 4182,922 2184,1044 ' rendition="line" xml:id="Pag5_Riga8"/>
+                <zone points = ' 2207,1245 2939,1240 3259,1192 3382,1222 3517,1176 3913,1227 4192,1202 4175,1087 3601,1046 2200,1135 ' rendition="line" xml:id="Pag5_Riga9"/>
+                <zone points = ' 2200,1347 2486,1363 3312,1291 3604,1310 4176,1285 4177,1202 3910,1216 3860,1164 3322,1208 3250,1182 2894,1238 
+                        2696,1214 2203,1237 ' rendition="line" xml:id="Pag5_Riga10"/>
+                <zone points = ' 2226,1459 3098,1407 3421,1438 3534,1394 3814,1402 3918,1369 4198,1384 4164,1272 3607,1306 3432,1286 2560,1326 2484,1366 2216,1352 ' rendition="line" xml:id="Pag5_Riga11"/>
+                <zone points = ' 2236,1546 2864,1558 3522,1485 4156,1484 4144,1372 3866,1372 3818,1405 3767,1382 3532,1393 3422,1432 3325,1394 2248,1458 ' rendition="line" xml:id="Pag5_Riga12"/>
+                <zone points =' 2226,1696 2278,1728 2338,1690 2927,1610 3053,1654 3196,1596 3415,1648 3556,1634 3581,1585 3722,1628 4176,1580 4164,1467 3565,1491 3527,1472 2866,1539 
+                        2670,1532 2610,1549 2230,1536 ' rendition="line" xml:id="Pag5_Riga13">
+                    <zone points = ' 1921,1692 2173,1620 2168,1528 1922,1562 ' rendition="hotspot" xml:id="add2_riga1"/>
+                    <zone points = ' 1978,1705 2042,1740 2172,1692 2168,1611 1980,1653 ' rendition="hotspot" xml:id="add2_riga2"/>
+                    <zone points = ' 1934,1803 2202,1741 2192,1675 2041,1735 1973,1695 ' rendition="hotspot" xml:id="add2_riga3"/>
+                    <zone points = ' 1937,1795 2136,1756 2138,1825 1951,1864 ' rendition="hotspot" xml:id="add2_riga4"/>
+                    <zone points = ' 1932,1852 2231,1790 2242,1891 2105,1902 2071,1966 2021,1917 1948,1921 ' rendition="hotspot" xml:id="add2_riga5"/>
+                    <zone points = ' 1945,1939 2056,1905 2054,1946 2070,1964 2104,1911 2215,1885 2218,1957 2066,1992 1967,2028 ' rendition="hotspot" xml:id="add2_riga6"/>
+                    <zone ulx="2006" uly="1993" lrx="2102" lry="2055" rendition="hotspot" xml:id="add2_riga7"/>
+                    <zone points = ' 1930,2047 2006,2034 2023,2074 2216,2014 2209,2114 2116,2127 2006,2136 1949,2175 ' rendition="hotspot" xml:id="add2_riga8"/>
+                    <zone points = ' 1948,2254 2190,2186 2206,2098 1985,2138 1952,2176 ' rendition="hotspot" xml:id="add2_riga9"/> 
+                </zone>        
+                <zone points = ' 2223,1675 2233,1756 2427,1767 2600,1754 2832,1742 2985,1751 3181,1722 3539,1695 3859,1680 4083,1687 4144,1708 4169,1632 4144,1594 3829,1584 3651,1594 
+                        3544,1619 3432,1634 3293,1614 3189,1598 3093,1620 3048,1648 2949,1616 2849,1644 2725,1627 2649,1632 2469,1668 2333,1672 ' rendition="line" xml:id="Pag5_Riga14"/>
+                <zone ulx="2245" uly="1695" lrx="4153" lry="1863" rendition="line" xml:id="Pag5_Riga15"/>
+                <zone ulx="2300" uly="1848" lrx="4129" lry="1968" rendition="line" xml:id="Pag5_Riga16"/>
+                <zone points = ' 2281,2016 2287,2086 2360,2095 2432,2090 2493,2091 2557,2086 2665,2079 2736,2082 2820,2080 2891,2067 2955,2070 3056,2064 3124,2060 3191,2056 3267,2058 
+                        3337,2052 3431,2055 3509,2043 3571,2043 3635,2028 3744,2016 3851,2020 3945,2030 4027,2003 4104,1974 4056,1940 3960,1931 3895,1958 3861,1939 3800,1943 3689,1942 
+                        3583,1938 3488,1950 3425,1932 3372,1934 3327,1936 3288,1944 3207,1960 3139,1951 3071,1959 2999,1963 2917,1991 2831,1984 2764,1972 2704,1976 2645,1991 2583,1991 
+                        2537,1995 2473,1988 2407,2011 2336,2007 ' rendition="line" xml:id="Pag5_Riga17"/>
+                <zone points = ' 2335,2116 2328,2162 2321,2204 2381,2206 2452,2202 2527,2203 2572,2212 2604,2228 2648,2203 2720,2210 2785,2200 2840,2206 2895,2199 2952,2190 3004,2186 
+                        3041,2199 3087,2211 3119,2182 3176,2170 3280,2176 3223,2166 3315,2159 3380,2152 3424,2144 3497,2138 3560,2131 3636,2135 3703,2131 3761,2120 3891,2138 3825,2127 
+                        3937,2128 3993,2115 4020,2139 4084,2146 4136,2114 4192,2092 4184,2055 4132,2020 4044,2024 3953,2015 3897,2016 3844,2016 3779,2019 3700,2038 3643,2023 3587,2040 
+                        3528,2063 3488,2071 3444,2047 3396,2055 3375,2087 3336,2068 3253,2074 3199,2072 3144,2070 3097,2070 3047,2068 3008,2072 2939,2092 2868,2100 2796,2108 2743,2107 
+                        2677,2104 2617,2100 2543,2098 2443,2103 2392,2102 ' rendition="line" xml:id="Pag5_Riga18"/>
+                <zone points = ' 2291,2230 2384,2220 2437,2207 2503,2200 2555,2210 2591,2234 2665,2230 2709,2207 2797,2203 2859,2202 2948,2204 3019,2200 3073,2206 3131,2186 3232,2176 
+                        3335,2154 3416,2158 3515,2136 3571,2123 3615,2158 3701,2123 3801,2142 3892,2139 3969,2116 4071,2131 4153,2159 4180,2223 4079,2222 3975,2230 3880,2223 3788,2215 
+                        3677,2230 3623,2259 3535,2246 3413,2248 3329,2264 3183,2271 3043,2282 2895,2284 2764,2295 2667,2304 2552,2316 2465,2308 2372,2322 2305,2299 ' rendition="line" xml:id="Pag5_Riga19"/>
+                <zone points = ' 2352,2412 2420,2412 2493,2419 2593,2435 2661,2415 2743,2408 2803,2410 2860,2404 2927,2403 3000,2412 3063,2411 3104,2418 3177,2432 3249,2402 3339,2375 3387,2375 
+                        3436,2366 3497,2356 3555,2347 3603,2340 3663,2347 3723,2335 3789,2331 3847,2335 3913,2338 3975,2331 4031,2322 4088,2324 4148,2330 4188,2330 4211,2300 4179,2276 4135,2260 
+                        4105,2247 4065,2223 4013,2232 3956,2246 3877,2246 3785,2227 3691,2244 3625,2272 3565,2246 3457,2250 3360,2275 3264,2279 3155,2279 3037,2280 2951,2287 2884,2286 2827,2295 
+                        2736,2302 2652,2299 2689,2302 2769,2302 2576,2288 2595,2291 2533,2298 2460,2307 2420,2310 2377,2323 2351,2332 2337,2351 2337,2375 2348,2391 ' rendition="line" xml:id="Pag5_Riga20"/>
+                <zone ulx="2285" uly="2342" lrx="4157" lry="2510" rendition="line" xml:id="Pag5_Riga21"/>
+                <zone points = ' 2071,2584 2164,2562 2232,2564 2351,2548 2425,2554 2531,2555 2607,2556 2676,2586 2744,2568 2791,2539 2869,2530 2949,2526 3016,2523 3091,2531 3167,2502 3227,2492 
+                        3281,2486 3343,2486 3393,2474 3443,2475 3525,2487 3595,2476 3633,2479 3697,2476 3768,2496 3813,2488 3849,2463 3933,2472 4004,2459 4080,2450 4157,2468 4187,2540 4140,2584 
+                        4049,2591 3980,2587 3885,2586 3728,2596 3804,2596 3644,2600 3559,2606 3492,2614 3459,2636 3407,2644 3345,2630 3308,2606 3220,2610 3269,2604 3193,2640 3161,2656 3100,2638 
+                        3037,2632 2979,2630 2920,2630 2849,2634 2767,2656 2680,2650 2619,2655 2531,2652 2440,2663 2349,2663 2287,2680 2220,2692 2169,2710 2125,2739 2093,2752 2057,2700 2056,2646 ' 
+                        rendition="line" xml:id="Pag5_Riga22"/>
+                <zone points = ' 2071,2584 2164,2562 2232,2564 2351,2548 2425,2554 2531,2555 2607,2556 2676,2586 2744,2568 2791,2539 2869,2530 2949,2526 3016,2523 3091,2531 3167,2502 3227,2492 
+                        3281,2486 3343,2486 3393,2474 3443,2475 3525,2487 3595,2476 3633,2479 3697,2476 3768,2496 3813,2488 3849,2463 3933,2472 4004,2459 4080,2450 4157,2468 4187,2540 4140,2584 
+                        4049,2591 3980,2587 3885,2586 3728,2596 3804,2596 3644,2600 3559,2606 3492,2614 3459,2636 3407,2644 3345,2630 3308,2606 3220,2610 3269,2604 3193,2640 3161,2656 3100,2638 
+                        3037,2632 2979,2630 2920,2630 2849,2634 2767,2656 2680,2650 2619,2655 2531,2652 2440,2663 2349,2663 2287,2680 2220,2692 2169,2710 2125,2739 2093,2752 2057,2700 2056,2646 ' 
+                        rendition="line" xml:id="Pag5_Riga23"/>
+                <zone points = ' 2197,2780 2249,2786 2293,2770 2349,2778 2393,2767 2431,2756 2472,2751 2513,2751 2545,2756 2597,2758 2628,2751 2656,2763 2689,2759 2733,2754 2756,2754 2801,2756 
+                        2852,2755 2909,2762 2965,2755 2987,2748 3031,2750 3073,2748 3116,2747 3153,2752 3192,2746 3237,2748 3272,2751 3332,2774 3367,2771 3435,2754 3488,2715 3565,2714 3628,2714 
+                        3679,2720 3729,2731 3781,2732 3824,2710 3897,2682 3975,2706 4044,2704 4109,2718 4148,2771 4176,2824 4147,2870 4071,2880 4000,2858 3932,2854 3843,2847 3784,2846 3747,2856 
+                        3652,2854 3560,2852 3485,2859 3425,2874 3331,2864 3252,2880 3181,2880 3065,2866 2977,2862 2849,2862 2684,2871 2545,2883 2416,2895 2303,2882 2211,2871 2179,2830 ' 
+                        rendition="line" xml:id="Pag5_Riga24"/>
+                <zone ulx="2360" uly="2850" lrx="4156" lry="3027" rendition="line" xml:id="Pag5_Riga25">
+                    <zone points = ' 2015,3065 2055,3040 2099,3023 2146,3024 2195,3013 2249,3004 2262,3032 2291,3036 2316,3014 2341,2988 2317,2961 2283,2919 2247,2900 2183,2901 2117,2908 2055,2915 
+                        1997,2926 1959,2959 1965,3008 1966,3049 1983,3070 ' rendition="hotspot" xml:id="add3_riga1"/>
+                    <zone ulx="2050" uly="3018" lrx="2289" lry="3137" rendition="hotspot" xml:id="add3_riga2"/>
+                </zone>
+                <zone ulx="2360" uly="2987" lrx="4149" lry="3139" rendition="line" xml:id="Pag5_Riga26"/>
+                <zone ulx="2368" uly="3122" lrx="4144" lry="3240" rendition="line" xml:id="Pag5_Riga27"/>
+                <zone ulx="2348" uly="3236" lrx="4180" lry="3380" rendition="line" xml:id="Pag5_Riga28"/>
+                <zone ulx="2388" uly="3363" lrx="4039" lry="3495" rendition="line" xml:id="Pag5_Riga29"/>
+                <zone ulx="2088" uly="3462" lrx="4111" lry="3628" rendition="line" xml:id="Pag5_Riga30"/>
+                <zone ulx="2359" uly="3596" lrx="4047" lry="3712" rendition="line" xml:id="Pag5_Riga31"/>
+                <zone ulx="3076" uly="3715" lrx="3892" lry="3827" rendition="line" xml:id="Pag5_Riga32"/>
+            </zone>  
+        </surface>
+        <!--Pagina 5 retro vuoto-->
+        <surface>
+            <graphic url="immagini/pg_5_88.jpg" xml:id="pag5r" width='6047.86666px' height='4031.86666px'/>
+            <zone ulx="835" uly="228" lrx="3099" lry="3688" xml:id="empty_page"/>
+        </surface>
+    </facsimile>
+    <!--Testo del manoscritto-->
+    <text xml:lang="fr" xml:id="text-fr" subtype="manuscript">
+        <body>   
+            <!--Trascrizione pag 4--> 
+            <div type="pagina" n="4">
+                <pb n="4" facs="#Pag4"/> 
+                    <ab xml:id="npag4">
+                        <!--Numero di pagina segnato in alto a sinistra nel foglio-->
+                        <fw type="pageNum" xml:id="numero-di-pagina-4" style="text-align: left" rend="circled" facs="#facs_numero-di-pagina-4"> 4 </fw>
+                    </ab>
+                    <!--Parte finale di pericope 1-->
+                    <ab type="pericope" n="1" part="F" xml:id="Per1_Pag4">
+                        <lb break="no" facs="#Pag4_Riga1"/>
+                            <offset><add place="supralinear" hand="#FdS"> vers la période entre </add><del rend="overstrike" cert="medium" hand="#FdS">entre</del></offset>
+                            <date xml:id="data">l'an <subst hand="#FdS" resp="#AS_DT"><add>5</add><del rend="overwrite">4</del></subst>00 et <subst hand="#FdS">
+                            <add>9</add><del cert="low" rend="overwrite">8</del></subst>00</date><pc type="colon">: </pc>alors il
+                        <lb break="no" facs="#Pag4_Riga2"/>
+                            suppose <choice><sic>un<del hand="#FdS" rend="strikethrough">e </del></sic><corr>un</corr></choice> saut<pc type="colon">: </pc>
+                            <add place="supralinear" hand="FdS">ou <choice resp="#AS_DT"><abbr type="brevigraph" subtype="number">1</abbr><expan>un</expan></choice> saut 
+                            devant</add> d'<choice><sic>un<del hand="FdS" rend="strikethrough">e</del></sic><corr>un</corr></choice> alinéa
+                            <pc type="comma">,</pc>
+                        <lb break="no" facs="#Pag4_Riga3"/>
+                            <del cert="low" rend="strikethrough" hand="#FdS" resp="#AS_DT">une mystérieuse</del> un coup de baguette
+                        <lb break="no" facs="#Pag4_Riga4"/>
+                            magique<pc type="comma">,</pc>ou un enfantement
+                            <del cert="low" rend="strikethrough" hand="#FdS" resp="#AS_DT"> mystéria</del><!-- <pc type="comma">,</pc> -->
+                        <lb break="no" facs="Pag4_Riga5"/>
+                            <add place="margin left" hand="#FdS">inouï </add><del cert="low" rend="strikethrough" hand="#FdS" resp="#AS_DT">d'où serait</del>
+                            par lequel un <term ref="#idiome">idiome </term><choice resp="#AS_DT"><abbr>do<am>n¯</am>e</abbr><expan>do<ex>nn</ex>e</expan></choice>
+                        <lb break="no" facs="Pag4_Riga6"/>
+                            <add place="margin left" hand="#FdS">subitement </add>la vie à <choice resp="#AS_DT"><abbr type="brevigraph" subtype="number">1</abbr>
+                            <expan>un</expan></choice> autre <term ref="#idiome">idiome</term><pc type="dot">.</pc>
+                    </ab>
+                    <!--Pericope 2-->
+                    <ab type="pericope" n="2" xml:id="Per2_Pag4">
+                            <pc type="dash" resp="#AS_DT">-</pc> De même 
+                        <lb break="no" facs="#Pag4_Riga7"/>
+                            s'il commence par supprimer l'idée
+                        <lb break="no" facs="#Pag4_Riga8"/>
+                            de <term ref="#continuite" rend="underline">continuité</term><pc type="comma">,</pc>
+                            <del hand="#FdS" rend="strikethrough"><gap reason="cancelled" unit="chars" resp="#AS_DT"/></del> en
+                        <lb break="no" facs="#Pag4_Riga9"/>
+                            imaginant qu'un jour <lang corresp="#francais">le français</lang> sortit
+                        <lb break="no" facs="#Pag4_Riga10"/>
+                            <add place="margin left" hand="#FdS">
+                                <lb break="no" facs="#add1_riga1"/>
+                                    <choice resp="#AS_DT"><abbr>co<am>m¯</am>e</abbr><expan> co<ex>mm</ex>e </expan></choice>
+                                    <choice resp="#AS_DT"><abbr>Min</abbr><expan><name ref="#minerve" type="anthroponym" subtype="theonym">Minerve</name></expan></choice>
+                                <lb break="no" facs="#add1_riga2"/>    
+                                    du <choice resp="#AS_DT"><abbr>cerv</abbr><expan><term ref="#cerveau">cerveau</term></expan></choice> 
+                                <lb break="no" facs="#add1_riga3"/>     
+                                    de
+                                <lb break="no" facs="#add1_riga4"/>  
+                                    <name ref="#jupiter" type="anthroponym" subtype="theonym">Jupiter</name>
+                            </add> 
+                            armé de <choice resp="#AS_DT"><abbr>ttes</abbr><expan>toutes</expan></choice> pièces des flancs de la <term ref="#langue">langue</term><lang corresp="#latine"> latine</lang><pc type="comma">,</pc>
+                        <lb break="no" facs="#Pag4_Riga11"/>
+                            il tombe régulièrement <choice resp="#AS_DT"><abbr type="contraction">ds</abbr><expan>d<ex>an</ex>s </expan></choice> le 
+                            <choice resp="#AS_DT"><sic>sopisme</sic><corr>sophisme</corr></choice> de
+                        <lb break="no" facs="#Pag4_Riga12"/>
+                            l'<term ref="#immobilite" rend="underline"><choice resp="#AS_DT"><abbr>i<am>m¯</am>obilité</abbr><expan>i<ex>mm</ex>obilité </expan></choice>
+                            </term><pc type="semicolon">;</pc> il suppose <choice resp="#AS_DT"><abbr type="sospension">naturelle</abbr><expan>naturelle<ex>ment</ex></expan>
+                            </choice> <gap reason="irrelevant" quantity="3" unit="chars" resp="#AS_DT"/>
+                        <lb break="no" facs="#Pag4_Riga13"/>
+                            qu'entre <choice resp="#AS_DT"><abbr type="brevigraph" subtype="number">2</abbr><expan>deux</expan></choice>
+                            <add place="above" hand="FdS">de ses</add> sauts <add place="margin" hand="FdS"><choice resp="#AS_DT"><abbr>imagin<am>.</am></abbr>
+                            <expan>imagin<ex>aires </ex></expan></choice></add> la <term ref="#langue">langue</term> est 
+                            <choice resp="#AS_DT"><abbr type="contraction">ds</abbr><expan>d<ex>an</ex>s </expan></choice>
+                            <choice resp="#AS_DT"><abbr type="brevigraph" subtype="number">1</abbr><expan>un</expan></choice> 
+                            <term ref="#etatdequilibre"> état
+                        <lb break="no" facs="#Pag4_Riga14"/>
+                            <hi rend="underline">d'équilibre</hi></term> et de repos<pc type="comma">,</pc> ou 
+                            <choice resp="#AS_DT"><abbr type="brevigraph" subtype="number">1</abbr><expan>au</expan></choice> moins 
+                            <term ref="#dequilibreopposable">d'équilibre
+                        <lb break="no" facs="#Pag4_Riga15"/>
+                            <term ref="#opposable"> opposable </term></term> à ces sauts<pc type="comma">,</pc><pc type="dash" resp="#AS_DT">-</pc>
+                            tandis qu'il n'y a 
+                        <lb break="no" facs="#Pag4_Riga16"/>
+                            jamais en réalite un <term ref="#etatdequilibre">équilibre</term><pc type="comma">,</pc><add place="below" resp="#AS" hand="#FdS"> un point permanent
+                            <pc type="comma">,</pc></add> stable <choice resp="#AS_DT"><abbr type="contraction">ds</abbr><expan>d<ex>an</ex>s </expan></choice> aucun 
+                            <add place="below" hand="#FdS"><term ref="#langage">langage</term><pc type="dot">.</pc></add>
+                    </ab>
+                    <!--Pericope 3, ruotata di 180° rispetto al resto e cancellato. Incipit iniziale, poi abbandonato-->
+                    <ab style="transform:rotateZ(-180deg)" rend="overstrike" type="pericope" n="3" xml:id="Per3_Pag4">
+                        <lb break="no" facs="#Pag4_Riga17"/>
+                            Si<pc type="comma">,</pc> comme <choice resp="#AS_DT"><abbr type="contraction">ns</abbr><expan>n<ex>ou</ex>s</expan></choice> venons
+                            de le poser <add place="above" hand="FdS">en <term ref="#principe">principe </term></add><del hand="#FdS" rend="strikethrough">et de la
+                        <lb break="no" facs="#Pag4_Riga18"/>
+                            <term ref="#constater_formellement">constater formellement</term></del><pc type="comma">,</pc> il ne saurait y avoir
+                        <lb break="no" facs="#Pag4_Riga19"/>
+                            de passage subit <del rend="strikethrough" hand="#FdS" resp="#AS_DT">d'un</del><choice resp="#AS_DT"><abbr type="contraction"> ds</abbr><expan>d<ex>an</ex>s </expan></choice>
+                            le temps d'<choice><sic>un<del hand="FdS" rend="overstrike">e</del></sic><corr>un</corr></choice> 
+                            <term ref="#langue"> état de
+                        <lb break="yes" facs="#Pag4_Riga20"/>
+                            langue</term> à un autre, s'il est vrai que nous par<pc type="equals" resp="#AS" force="strong">=</pc>
+                        <lb break="no" facs="#Pag4_Riga21"/>
+                            <pc type="equals" resp="#AS" force="strong">=</pc>lerons toujours demain la même <term ref="#langue">langue </term>
+                            <del hand="FdS" rend="strikethrough"> qu'hier
+                        <lb break="no" facs="#Pag4_Riga22"/>
+                            ou</del><add place="margin" hand="#FdS"> que <choice resp="#AS_DT"><abbr type="contraction">ns</abbr><expan>n<ex>ou</ex>s </expan></choice>parlions</add>
+                            <add place="above" hand="#FdS"> hier<pc type="comma">,</pc></add> on demande comment il se fait <del rend="strikethrough">alors</del>
+                        <lb break="no" facs="#Pag4_Riga23"/>
+                            que
+                    </ab>
+            </div>
+            <!--Trascrizione pag 5--> 
+            <div type="pagina" n="5">
+                <pb n="5" facs="#Pag5"/> 
+                    <ab>
+                         <!--Numero di pagina segnato in alto a sinistra nel foglio-->
+                        <fw type="pageNum" xml:id="numero-di-pagina-5" rend="align-left" facs="#facs_numero-di-pagina-5">5</fw>
+                    </ab>
+                        <!--Pericope 1-->
+                        <ab type="pericope" n="1" xml:id="Per1_Pag5">
+                            <lb break="yes" facs="#Pag5_Riga1"/>
+                                Nous posons donc le <term ref="#principe">principe</term> de <term ref="#latransformationincessantedeslangues">la transfor<pc type="dash" force="strong" resp="#AS">-</pc>
+                            <lb break="no" facs="#Pag5_Riga2"/>
+                                <pc type="equals" resp="#AS" force="strong">=</pc>mation incessante des langues</term><choice resp="#AS_DT"><abbr>co<am>m¯</am>e</abbr><expan>co<ex>mm</ex>e</expan></choice> 
+                                absolu<pc type="dot">.</pc>
+                        </ab>
+                        <!--Pericope 2-->
+                        <ab type="pericope" n="2" xml:id="Per2_Pag5">
+                                Le
+                            <!-- nuove pericopi -->
+                            <lb break="no" facs="#Pag5_Riga3"/>
+                                cas d'un <term ref="#idiome">idiome</term> qui se trouverait en état
+                            <lb break="no" facs="#Pag5_Riga4"/>
+                                d'<term ref="#immobilite" rend="underline"><choice resp="#DT"><abbr>i<am>m¯</am>obilité</abbr><expan>i<ex>mm</ex>obilité </expan></choice>
+                                </term><choice resp="#DT"><orig><abbr type="brevigraph">&amp;</abbr></orig><reg><expan>et</expan></reg></choice> de repos 
+                                <del cert="low" rend="strikethrough" hand="#FdS" resp="#DT"> est incon</del> ne se présente
+                            <lb break="no" facs="#Pag5_Riga5"/>
+                                pas<pc type="dot">.</pc>
+                        </ab>
+                        <!--Pericope 3-->
+                        <ab type="pericope" n="3" xml:id="Per3_Pag5">
+                                <del cert="high" rend="strikethrough" hand="#FdS" resp="#DT"> La nécessité du mouvement apparaît</del>
+                            <lb break="no" facs="#Pag5_Riga6"/>
+                                <del cert="high" rend="strikethrough" hand="#FdS" resp="#DT"> même <choice resp="#DT"><abbr>co<am>m¯</am>e</abbr><expan>co<ex>mm</ex>e</expan></choice>
+                                tellement <choice resp="#DT"><orig>incoërcible</orig><reg>incoercible</reg></choice><pc type="comma">,</pc> incompressi<pc type="comma">,</pc></del>
+                            <lb break="no" facs="#Pag5_Riga7"/>
+                                Les impulsions qui créent ce mouvement    
+                            <lb break="no" facs="#Pag5_Riga8"/>
+                                apparaissent même <choice resp="#AS_DT"><abbr>co<am>m¯</am>e</abbr><expan>co<ex>mm</ex>e</expan></choice>tellement incompressibles
+                            <lb break="no" facs="#Pag5_Riga9"/>
+                                et <choice resp="#AS_DT"><orig>incoërcible</orig><reg>incoercible</reg></choice><pc resp="#AS_DT" type="comma">,</pc>
+                                que <del cert="high" rend="strikethrough" hand="#FdS" resp="#AS_DT">les langues <gap reason="illegible" quantity="1" unit="chars" resp="#AS_DT"/>la tyran<pc type="dash" force="strong" resp="#AS_DT">-</pc></del>
+                            <lb break="no" facs="#Pag5_Riga10"/>   
+                                les <term ref="#langue">langues </term><del cert="high" rend="strikethrough" hand="#FdS" resp="#AS_DT">écrite</del><choice resp="#AS_DT"><abbr>co<am>m¯</am>e</abbr><expan>co<ex>mm</ex>e</expan></choice>
+                                la nôtre <del cert="high" rend="strikethrough" hand="#FdS" resp="#AS_DT">qui vivent</del>
+                            <lb break="no" facs="#Pag5_Riga11"/>
+                                dont la <term ref="#vie">vie </term> est devenue <add place="above" hand="#FdS">presque</add><choice resp="#AS_DT"><abbr>tt</abbr><expan>tout</expan></choice> à fait <term ref="#artificielle">artificielle</term> 
+                            <lb break="no" facs="#Pag5_Riga12"/>
+                                sont obligées d'y céder elles<pc type="dash" force="inter">-</pc>mêmes<pc type="semicolon">;</pc>
+                        </ab>
+                        <!--Pericope 4-->
+                        <ab type="pericope" n="4" xml:id="Per4_Pag5">
+                                <del rend="strikethrough" hand="#FdS">et </del>la
+                            <lb break="yes" facs="#Pag5_Riga13"/>
+                                tyrannie de la <term ref="#langueecrite">langue écrite </term>
+                                <add place="margin left" hand="#FdS">
+                                    <lb break="no" facs="#add2_riga1"/>
+                                        cette 
+                                    <lb break="no" facs="#add2_riga2"/>    
+                                        espèce 
+                                    <lb break="yes" facs="#add2_riga3"/>    
+                                        de cor<pc type="dash" force="strong">-</pc>
+                                    <lb break="no" facs="#add2_riga4"/>  
+                                        <pc type="dash" force="strong">-</pc>set 
+                                    <lb break="no" facs="#add2_riga5"/>    
+                                        de force
+                                    <lb break="no" facs="#add2_riga6"/> 
+                                        qui est
+                                    <lb break="no" facs="#add2_riga7"/>   
+                                        le
+                                    <lb break="no" facs="#add2_riga8"/> 
+                                        <term ref="#francaisofficiel"><lang corresp="#francais">français </lang>
+                                    <lb break="no" facs="#add2_riga9"/>     
+                                        officiel</term>
+                                </add>
+                                <choice resp="#SB_RE"><orig> </orig><reg>,</reg></choice> <del rend="strikethrough" hand="#FdS" resp="#AS_DT">enraye<pc type="comma">,</pc></del>
+                                <add place="above" hand="#FdS">a </add> certai<pc type="equals" resp="#AS" force="strong">=</pc>
+                            <lb break="no" facs="#Pag5_Riga14"/>
+                                <pc type="equals" resp="#AS" force="strong">=</pc>nement <subst hand="#FdS" resp="#AS_DT" cert="low"><add>pour </add><del rend="overwrite">leur</del></subst> effect d'enrayer leur marche<pc type="comma">,</pc>
+                            <lb break="no" facs="#Pag5_Riga15"/>    
+                                mais elle est impuissante à l'arrêter <choice><orig><abbr>complèt</abbr></orig><reg><expan resp="#SB_RE">complètement</expan></reg></choice><pc type="comma">,</pc>
+                            <lb break="no" facs="#Pag5_Riga16"/>      
+                                et souvent nous ne nous doutons pas
+                            <lb break="no" facs="#Pag5_Riga17"/>  
+                                de la distance où est déjà parvenue
+                            <lb break="no" facs="#Pag5_Riga18"/>  
+                                la <term ref="languevraie">langue <hi rend="underline">vraie</hi></term><choice><orig><pc type="comma">,</pc></orig><reg resp="#SB_RE"> </reg></choice>
+                                <pc type="bracket" force="weak">(</pc><seg>j'entends même la <term ref="#langue">langue</term>
+                            <lb break="no" facs="#Pag5_Riga19"/>    
+                                de la <term ref="#conversationcultivee">conversation cultivée</term><choice><orig><pc type="comma">,</pc></orig><reg resp="#SB_RE"> </reg></choice>
+                                <del rend="strikethrough" hand="#FdS">des salons 
+                            <lb break="yes" facs="#Pag5_Riga20"/>   
+                                et de<subst rend="overwrite" hand="#FdS"><add>s</add><del> l'</del></subst> Académie<add hand="#FdS" resp="#AS_DT">s</add></del>
+                                <pc type="bracket" force="weak">)</pc></seg>par le travail souter<pc type="dash" force="strong">-</pc>
+                            <lb break="yes" facs="#Pag5_Riga21"/> 
+                                <pc type="equals" force="strong">=</pc>rain qui ne cesse de s'accomplir <add place="above" hand="FdS"><choice resp="#AS_DT"><abbr type="contraction">ds</abbr><expan>d<ex>an</ex>s </expan></choice> 
+                                la <term ref="#languevivante">langue vivante</term> <choice resp="#SB_RE"><orig>,</orig><reg> </reg></choice></add><del rend="strikethrough" resp="#AS" hand="#FdS">au<pc type="dash">-</pc></del>
+                            <lb break="no" facs="#Pag5_Riga22"/> 
+                                par-dessous <del rend="overstrike" hand="FdS" resp="#AS">de</del> la surface <add place="above" hand="#FdS">pour ainsi dire</add> figée du <term ref="#francaisclassique"><lang corresp="#francais">français</lang>
+                                <gap reason="illegible" quantity="2" unit="chars" resp="#AS"/>
+                            <lb break="no" facs="#Pag5_Riga23"/> 
+                                classique</term><pc type="dot">.</pc>
+                        </ab>               
+                        <!--Pericope 5 -->
+                        <ab type="pericope" n="5" xml:id="Per5_Pag5">
+                                C’est ainsi par <choice resp="#SB_RE"><abbr type="contraction">ex<pc type="dot">.</pc></abbr><expan>exemple</expan></choice> que<del rend="strikethrough" hand="#FdS" resp="#AS">
+                                per<pc type="dash" force="strong">-</pc>
+                            <lb break="no" facs="#Pag5_Riga24"/>
+                                <pc type="equals" force="strong">=</pc>sonne que se doute</del><add place="above" hand="#FdS"><choice resp="#AS_DT"><abbr type="contraction">ns</abbr><expan>n<ex>ou</ex>s</expan></choice> 
+                                ne <choice resp="#AS_DT"><abbr type="contraction">ns</abbr><expan>n<ex>ou</ex>s</expan></choice> doutons guère</add> que <foreign xml:lang="fr">quatre</foreign><pc type="comma">,</pc> 
+                                <foreign xml:lang="fr">lettre</foreign><pc type="comma">,</pc>
+                            <lb break="no" facs="#Pag5_Riga25"/>
+                                <foreign xml:lang="fr">chambre</foreign><choice><orig> </orig><reg resp="#SB_RE"><pc type="comma">,</pc></reg></choice>
+                                <add place="margin">
+                                    <lb break="no" facs="#add3_riga1"/>
+                                        <foreign xml:lang="fr">double</foreign><pc type="comma">,</pc> 
+                                    <lb break="no" facs="#add3_riga2"/>   
+                                        <foreign xml:lang="fr">table</foreign>
+                                </add>
+                                et tous les <term ref="#mots">mots</term> finissant par
+                            <lb break="no" facs="#Pag5_Riga26"/>
+                                <choice resp="#SB_RE"><abbr type="contraction">cons<pc type="dot">.</pc></abbr><expan><term ref="#consonne">consonne</term></expan></choice> 
+                                <pc type="plus">+</pc> <emph rend="underline">re</emph> ou <choice resp="#SB_RE"><abbr type="contraction">cons<pc type="dot">.</pc></abbr>
+                                <expan><term ref="#consonne">consonne</term></expan></choice><pc type="plus">+</pc><emph rend="underline">le</emph><choice><orig><pc type="comma">,</pc></orig>
+                                <reg resp="#SB_RE"> </reg></choice> sont presque
+                            <lb break="no" facs="#Pag5_Riga27"/>
+                                arrivés au moment où <hi rend="underline">re</hi><choice resp="#SB_RE"><orig><abbr type="brevigraph">&amp;</abbr></orig><reg><expan>et</expan></reg></choice><hi rend="underline"> le</hi> auront 
+                            <lb break="no" facs="#Pag5_Riga28"/>    
+                                <choice resp="#SB_RE"><orig><abbr type="contraction">complètt</abbr></orig><reg><expan>complètement</expan></reg></choice> disparu<pc type="semicolon">;</pc>
+                                <del rend="strikethrough" hand="#FdS" resp="#DT">
+                                    ce n'est plus que <choice><orig><abbr type="contraction">ds</abbr></orig><reg><expan>d<ex>an</ex>s </expan></reg></choice>
+                                    <choice><abbr type="contraction">certns</abbr><expan>cert<ex>ai</ex>ns </expan></choice>
+                            <lb break="no" facs="#Pag5_Riga29"/>       
+                                circonstances déterminé que le nom de
+                            <lb break="no" facs="#Pag5_Riga30"/> 
+                                    <add place="margin left" hand="#FdS">
+                                        <lb break="no"/>
+                                            <choice><orig><abbr type="contraction">4e</abbr></orig><reg resp="#DT"><expan>quatrième</expan></reg></choice>
+                                        <lb break="no"/>
+                                            nom de
+                                    </add>
+                                    nombre est <hi rend="underline">katre</hi> où <hi rend="underline">katr</hi><pc type="colon">:</pc> il est dès à
+                            <lb break="no" facs="#Pag5_Riga31"/>
+                                    présent presque <choice><orig><abbr type="contraction">partt</abbr></orig><reg resp="#DT"><expan>partout</expan></reg></choice>
+                                    <hi rend="underline">kat</hi><pc type="dot">.</pc> De même <hi rend="underline">let</hi>
+                            <lb break="no" facs="#Pag5_Riga32"/> <!-- non sono sicura di questa riga-->
+                                    <add place="below" hand="#FdS">k<pc type="plus" force="strong">+</pc>a<pc type="plus" force="strong">+</pc>t </add><hi rend="underline">chamb</hi>
+                                </del>                         
+                        </ab>
+                <!--Retro vuoto di pagina 5-->
+                <pb n="5" facs="#empty_page"/>
+            </div>
+            <!--Traduzione in italiano-->   
+            <div source="#E_Fadda_linguaementesociale" resp="#EF">
+                <div xml:id="trad4">
+                    <ab xml:id="Per1_Pag4_IT" corresp="#Per1_Pag4" part="F">
+                        nel periodo tra l'anno 500 e il 900: allora suppone un salto: o un salto dopo un a capo, un colpo di bacchetta magica,
+                        o un parto inaudito, con il quale un idioma dà d'un tratto la vita a un altro idioma.
+                    </ab>
+                    <ab xml:id="Per2_Pag4_IT" corresp="#Per2_Pag4">
+                        Ugualmente, se egli inizia col sopprimere l'idea di continuità, immaginando che un giorno il francese sia uscito fuori
+                        come Minerva dal cervello di Giove provvisto di tutte le armi della lingua latina, cade regolarmente nel sofisma dell'immobilità;
+                        suppone naturalmente che, tra due dei suoi immaginari salti, la lingua è in uno stato di equilibrio e di riposo, o quantomeno di 
+                        equilibrio opponibile a questi salti, mentre invece non c'è mai in realtà un equilibrio, un punto fisso, stabile in nessun linguaggio.
+                    </ab>
+                </div>
+                <div xml:id="trad5">
+                    <ab xml:id="Per1_Pag5_IT" corresp="#Per1_Pag5">
+                        Poniamo dunque il principio della trasformazione incessante delle lingue come assoluto.
+                    </ab>
+                    <ab xml:id="Per2_Pag5_IT" corresp="#Per2_Pag5">
+                        Il caso di un idioma che si trovi in stato d'immobilità e di riposo non si presenta.
+                    </ab>
+                    <ab xml:id="Per3_Pag5_IT" corresp="#Per3_Pag5">
+                        Gli impulsi che creano questo movimento appaiono anzi a tal punto incomprimibili e incoercibili che le lingue come la nostra, la cui vita 
+                        è divenuta quasi del tutto artificiale, sono obbligate a cedervi;
+                    </ab>
+                    <ab xml:id="Per4_Pag5_IT" corresp="#Per4_Pag5">
+                        la tirannia della lingua scritta, questa specie di bustino rigido che è il francese ufficiale, ha certamente per effetto di ostacolare il
+                        loro cammino, ma è impotente a fermarlo del tutto, e spesso non ci poniamo alcun dubbio sulla distanza cui è già pervenuta la lingua vera 
+                        (e intendo anche la lingua della conversazione colta) grazie al lavorio sotterraneo che non cessa di compiersi nella lingua vivente sotto 
+                        la superficie per così dire cristallizzata del francese classico.
+                    </ab>
+                    <ab xml:id="Per5_Pag5_IT" corresp="#Per5_Pag5">
+                        È così, per esempio, che noi non dubitiamo affatto che quatre, lettre, double, table e tutte le parole che finiscono con consonante + re o 
+                        consonante + le sono quasi giunte al punto in cui re e le saranno completamente spariti.
+                    </ab> 
+                </div>                 
+            </div>
+        </body>    
+       
+        <back>
+            <!--Citazioni bibliografiche-->
+            <listBibl>
+                <head>Bibliografia</head>
+
+                <bibl xml:id="corsoDiLinguisticaGenerale">
+                    <author ref="#FdS">
+                        <forename>Ferdinand </forename>
+                        <surname>De Saussure</surname>
+                    </author>
+                    <author ref="#TDM">
+                        <forename>Tullio </forename>
+                        <surname>De Mauro</surname>
+                    </author>
+                    <title type="main">Corso di linguistica generale</title>
+                    <title type="sub">Traduzione commento e note di Tullio De Mauro</title>
+                    <pubPlace>
+                        <placeName ref="#roma">Roma</placeName>
+                    </pubPlace>
+                    <pubPlace>
+                        <placeName ref="#bari">Bari</placeName>
+                    </pubPlace>
+                    <date from="1967">1967</date>
+                    <publisher>Laterza</publisher>
+                </bibl>
+
+                <bibl xml:id="cahierFdS" xml:lang="fr" source="https://www.jstor.org/stable/41427851">
+                    <author ref="#AC">
+                        <forename>Alessandro</forename>
+                        <surname>Chidichimo</surname>
+                    </author>
+                    <title>Cahiers <persName ref="#FdS">Ferdinand de Saussure</persName></title>
+                    <pubPlace>
+                        <placeName ref="#geneve">Ginevra</placeName>
+                    </pubPlace>
+                    <citedRange unit="volume">No. 62</citedRange>
+                    <publisher>Librairie Droz</publisher>
+                    <date when="2009">2009</date>
+                </bibl>
+
+                <bibl xml:id="SB_RE2002"> 
+                    <title>Écrits de linguistique générale</title>
+                    <author>
+                        <persName ref="#FdS">
+                            <forename>Ferdinand</forename> 
+                            <surname>de Saussure</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#SB">
+                            <forename>Simon</forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#RE">
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName>
+                            <forename>Antoinette</forename>
+                            <surname>Weil</surname>
+                        </persName>
+                    </author>
+                    <date when="2002">2002</date>
+                    <publisher>Gallimard</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <citedRange unit="page" from="143" to="172">Pp. 143-172</citedRange>
+                </bibl>
+
+                <bibl xml:id="E_Fadda_linguaementesociale">
+                    <title type="main">Lingua e mente sociale</title>
+                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>
+                    <date>2006</date>  
+                    <publisher>Bonanno Editore</publisher>
+                    <pubPlace>Acireale</pubPlace>
+                    <citedRange unit="page" from="85" to="121">Pp. 85-121</citedRange>
+                </bibl>
+                
+            </listBibl>
+            <!--Lista dei termini con relative glosse-->
+            <list type="ElementiTerminologici">
+
+                <item n="1">
+                    <label n="1">
+                        <term subtype="linguistics-term" xml:lang="fr" xml:id="idiome">Idiome</term>
+                        <term ref="#idiome" xml:lang="it">Idioma</term>
+                    </label>
+                    <gloss xml:lang="it" target="#idiome" source="https://www.treccani.it/vocabolario/idioma/">
+                        Lingua propria e particolare di una nazione.
+                    </gloss>
+                </item>  
+
+                <item n="2">
+                    <label n="2">
+                        <term xml:id="continuite" xml:lang="fr">Continuité</term>
+                        <term ref="#continuite" xml:lang="it">Continuità</term>
+                    </label>
+                    <gloss xml:lang="it" target="#continuite" source="https://www.treccani.it/vocabolario/continuita/">
+                        Qualità d'esser continuo, estensione non interrotta nel tempo, o anche nello spazio.
+                    </gloss>
+                </item>
+
+                <item n="3">
+                    <label n="3">
+                        <term xml:id="cerveau" xml:lang="fr">Cerveau</term>
+                        <term ref="#cerveau" xml:lang="it">Cervello</term>
+                    </label>
+                    <gloss xml:lang="it" target="#cerveau" source="https://www.treccani.it/vocabolario/cervello">                    
+                        In anatomia, il cervello è la parte anteriore dell’encefalo, di forma più o meno ovale, 
+                        costituita dagli emisferi cerebrali, la regione talamica e l’ipotalamo, particolarmente 
+                        sviluppata nell’essere umano; ha una superficie segnata da un profondo solco centrale e 
+                        da altri solchi che delimitano i lobi e le circonvoluzioni. È sede delle attività psichiche, 
+                        motorie e sensoriali. 
+                    </gloss>
+                </item>
+
+                <item n="4">
+                    <label n="4">
+                        <term xml:id="langue" xml:lang="fr">Langue</term>
+                        <term ref="#langue" xml:lang="it">Lingua</term>
+                    </label>
+                    <gloss xml:lang="it" target="#langue" source="https://www.treccani.it/vocabolario/lingua/">
+                        Sistema di suoni articolati distintivi e significanti (fonemi), di elementi lessicali, cioè parole e 
+                        locuzioni (lessemi e sintagmi), e di forme grammaticali (morfemi), accettato e usato da una comunità 
+                        etnica, politica o culturale come mezzo di comunicazione per l’espressione e lo scambio di pensieri e 
+                        sentimenti, con caratteri tali da costituire un organismo storicamente determinato, con proprie leggi 
+                        fonetiche, morfologiche e sintattiche.
+                    </gloss>
+                </item>
+
+                <item n="5">
+                    <label n="5">
+                        <term xml:id="immobilite" xml:lang="fr">Immobilité</term>
+                        <term ref="#immobilite" xml:lang="it">Immobilità</term>
+                    </label>
+                    <gloss xml:lang="it" target="#immobilite" source="https://www.treccani.it/vocabolario/immobilita/">
+                        Lo stato di persona o cosa immobile.
+                    </gloss>
+                </item>
+
+                <item n="6">
+                    <label n="6">
+                        <term xml:id="etatdequilibre" xml:lang="fr">État d'équilibre</term>
+                        <term ref="#etatdequilibre" xml:lang="it">Stato di equilibrio</term>
+                    </label>
+                    <gloss xml:lang="it" target="#etatdequilibre" source="https://www.treccani.it/vocabolario/equilibrio/">
+                        Stato di quiete di un corpo.
+                    </gloss>
+                </item>
+
+                <item n="7">
+                    <label n="7">
+                        <term xml:id="dequilibreopposable" xml:lang="fr">d'Équilibre <term xml:id="opposable" xml:lang="fr">opposable</term></term>
+                        <term ref="#dequilibreopposable" xml:lang="it">di Equilibrio <term ref="#opposable" xml:lang="it">opponibile</term></term>
+                    </label>
+                    <gloss xml:lang="it" target="#dequilibreopposable" source="https://www.treccani.it/vocabolario/equilibrio/">
+                        Stato di quiete di un corpo.
+                    </gloss>
+                    <gloss xml:lang="it" target="#opposable" source="https://www.treccani.it/vocabolario/opponibile/">
+                        Che si può opporre, anche in senso concr., per es., del pollice della mano dell'uomo, in quanto è 
+                        caratterizzato dal fatto che si oppone alle altre dita.
+                    </gloss>
+                </item>
+
+                <item n="8">
+                    <label n="8">
+                        <term xml:id="langage" xml:lang="fr">Langage</term>
+                        <term ref="#langage" xml:lang="it">Linguaggio</term>
+                    </label>
+                    <gloss xml:lang="it" target="#langage" source="https://www.treccani.it/vocabolario/linguaggio/">
+                        Nell'uso ant. o letter., e talora anche nell'uso com. odierno, lo stesso che lingua, come strumento 
+                        di comunicazione usato dai membri di una stessa comunità.
+                    </gloss>
+                </item>
+
+                <item n="9">
+                    <label n="9">
+                        <term xml:id="principe" xml:lang="fr">Principe</term>
+                        <term ref="#principe" xml:lang="it">Principio</term>
+                    </label>
+                    <gloss xml:lang="it" target="#principe" source="https://www.treccani.it/vocabolario/principio/">
+                        Concetto, affermazione, enunciato che forma uno dei fondamenti di una dottrina, di una scienza o di
+                        una disciplina, di un particolare sistema, o che, più semplicemente, sta alla base di un ragionamento, 
+                        di una convinzione.
+                    </gloss>
+                </item>
+
+                <item n="10">
+                    <label n="10">
+                        <term xml:id="latransformationincessantedeslangues" xml:lang="fr">La transformation incessante des langues</term>
+                        <term ref="#latransformationincessantedeslangues" xml:lang="it"> La trasformazione incessante delle lingue</term>
+                    </label>
+                    <gloss xml:lang="it" target="#latransformationincessantedeslangues" source="https://it.wikipedia.org/wiki/Cambiamento_linguistico">
+                        Il cambiamento linguistico o evoluzione linguistica è la variazione delle caratteristiche di una lingua. Esso può avvenire 
+                        nella fonetica (mutamento fonetico), nella fonologia (mutamento fonologico), nella morfologia (mutamento morfologico), nella 
+                        sintassi (mutamento sintattico), nella semantica (mutamento semantico e/o lessicale) di una determinata lingua e può essere 
+                        analizzato in sincronia e in diacronia.
+                    </gloss>
+                </item>
+
+                <item n="11">
+                    <label n="11">
+                        <term xml:id="constater_formellement" xml:lang="fr">Constater formellement</term>
+                        <term ref="#constater_formellement" xml:lang="it">Constatare formalmente</term>
+                    </label>
+                    <gloss xml:lang="it" target="#constater_formellement" source="https://www.treccani.it/vocabolario/constatare/">
+                        Dal fr. constater, accertare, appurare, stabilire con certezza, sulla base di prove e documenti
+                    </gloss>
+                </item>
+
+                <item n="12">
+                    <label n="12">
+                        <term xml:id="vie" xml:lang="fr">Vie</term>
+                        <term ref="#vie" xml:lang="it">Vita</term>
+                    </label>
+                    <gloss xml:lang="it" target="#vie" source="https://www.treccani.it/vocabolario/vita/">
+                        Nella concezione e nel linguaggio comune, s’intende in generale per vita lo spazio temporale compreso tra la nascita e la morte 
+                        di un individuo; a questo sign. si riconnettono gran numero di frasi e locuzioni, riferite soprattutto a esseri umani, e anche ad animali.    
+                    </gloss>
+                </item>
+
+                <item n="13">
+                    <label n="13">
+                        <term xml:id="artificielle" xml:lang="fr">Artificielle</term>
+                        <term ref="#artificielle" xml:lang="it">Artificiale</term>
+                    </label>
+                    <gloss xml:lang="it" target="#artificielle" source="https://www.treccani.it/vocabolario/artificiale/">
+                        Fatto, ottenuto con arte, in contrapp. a ciò che è per natura: lingue a., lingue convenzionali create da individui allo scopo di fornire un mezzo di 
+                        comunicazione internazionale, ma di uso molto limitato (per es., l’esperanto e il volapük).         
+                    </gloss>
+                </item>
+
+                <item n="14">
+                    <label n="14">
+                        <term xml:id="langueecrite" xml:lang="fr">Langue écrite</term>
+                        <term ref="#langueecrite" xml:lang="it">Lingua scritta</term>
+                    </label>
+                    <gloss xml:lang="it" target="#langueecrite" source="https://it.wiktionary.org/wiki/lingua_scritta">
+                        Contesto di comunicazione scritta.        
+                    </gloss>
+                </item>
+
+                <item n="15">
+                    <label n="15">
+                        <term xml:id="francaisofficiel" xml:lang="fr">Français officiel</term>
+                        <term ref="#francaisofficiel" xml:lang="it">Francese ufficiale</term>
+                    </label>
+                    <gloss xml:lang="it" target="#francaisofficiel">
+                        Il Francese ufficiale è la lingua che la Francia ha legalmente adottato per la produzione dei propri documenti ufficiali, come le leggi, 
+                        gli atti giudiziari e notarili.      
+                    </gloss>
+                </item>
+
+                <item n="16">
+                    <label n="16">
+                        <term xml:id="languevraie" xml:lang="fr">Langue vraie</term>
+                        <term ref="#languevraie" xml:lang="it">Lingua vera</term>
+                    </label>
+                    <gloss xml:lang="it" target="#langue vraie">
+                        Lingua che corrisponde al vero.     
+                    </gloss>
+                </item>
+
+                <item n="17">
+                    <label n="17">
+                        <term xml:id="conversationcultivee" xml:lang="fr">Conversation cultivée</term>
+                        <term ref="#conversationcultivee" xml:lang="it">Conversazione colta</term>
+                    </label>
+                    <gloss xml:lang="it" target="#conversationcultivee">
+                        Scambio verbale tra due o più partecipanti con un alto livello di istruzione.        
+                    </gloss>
+                </item>
+
+                <item n="18">
+                    <label n="18">
+                        <term xml:id="languevivante" xml:lang="fr">Langue vivante</term>
+                        <term ref="#languevivante" xml:lang="it">Lingua vivente</term>
+                    </label>
+                    <gloss xml:lang="it" target="#languevivante" source="https://it.wikipedia.org/wiki/Lingua_vivente">
+                        Una lingua è detta vivente quando esistono ancora delle persone che la adoperano come lingua madre. 
+                        L'opposto di questo termine è lingua morta. Le lingue viventi sono utilizzate per la comunicazione tra persone.        
+                    </gloss>
+                </item>
+
+                <item n="19">
+                    <label n="19">
+                        <term xml:id="francaisclassique" xml:lang="fr">Français classique</term>
+                        <term ref="#francaisclassique" xml:lang="it">Francese classico</term>
+                    </label>
+                    <gloss xml:lang="it" target="#francaisclassique" source="https://it.frwiki.wiki/wiki/Fran%C3%A7ais_classique">
+                        Il francese classico è il francese usato dagli scrittori del Rinascimento e del XVIII secolo.        
+                    </gloss>
+                </item>
+
+                <item n="20">
+                    <label n="20">
+                        <term xml:id="mots" xml:lang="fr">Mots</term>
+                        <term ref="#mots" xml:lang="it">Parole</term>
+                    </label>
+                    <gloss xml:lang="it" target="#mots" source="https://www.treccani.it/vocabolario/parola/">
+                        Complesso di fonemi, cioè di suoni articolati, o anche singolo fonema (e la relativa trascrizione in segni grafici), 
+                        mediante i quali l’uomo esprime una nozione generica, che si precisa e determina nel contesto di una frase.    
+                    </gloss>
+                </item>
+
+                <item n="21">
+                    <label n="21">
+                        <term xml:id="consonne" xml:lang="fr">Consonne</term>
+                        <term ref="#consonne" xml:lang="it">Consonante</term>
+                    </label>
+                    <gloss xml:lang="it" target="#consonne" source="https://www.treccani.it/vocabolario/consonante/">
+                        Ciascuno dei fonemi di una lingua che vengono pronunciati con il canale vocale chiuso (c. occlusive o momentanee) 
+                        o semichiuso (c. semiocclusive e costrittive), e che non possono fare sillaba da sé soli, in contrapp. alle vocali,
+                        che possono far sillaba da sole e vengono pronunciate con il canale vocale aperto.    
+                    </gloss>
+                </item> 
+            </list>
+            <!--Listab dei Glottonimi presenti nel manoscritto e relativa descrizione-->
+            <list type="Glottonimi">
+                <item n="1">
+                    <label n="1">
+                        <lang xml:lang="fr" xml:id="francais">le français</lang>
+                        <lang xml:lang="it" corresp="#francais">il francese</lang>
+                    </label>        
+                    <desc corresp="#francais" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_francese">
+                        Il francese è una lingua appartenente al gruppo delle lingue romanze. Al 2022, è parlata da 274,1 milioni 
+                        di parlanti totali.
+                    </desc>
+                </item>
+
+                <item n="2">
+                    <label n="2">
+                        <lang xml:lang="fr" xml:id="latine">latine</lang>
+                        <lang xml:lang="it" corresp="#latine">latino</lang>
+                    </label>        
+                    <desc corresp="#latine" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_latina">
+                        Il latino o lingua latina è una lingua indoeuropea appartenente al gruppo delle lingue latino-falische.
+                        Veniva parlata nel Lazio almeno dagli inizi del I millennio a.C.
+                    </desc>
+                </item>                                     
+            </list>
+            <!--Lista degli antroponimi con relativa descrizione-->
+            <list type="Antroponimi">
+                <item n="1">
+                    <label n="1">
+                        <name xml:lang="fr" xml:id="minerve">Minerve</name>
+                        <name xml:lang="it" ref="#minerve">Minerva</name>
+                    </label>
+                    <desc corresp="#minerve" xml:lang="it" source="https://it.wikipedia.org/wiki/Minerva">
+                        Minerva è la divinità romana della lealtà in lotta, delle virtù eroiche, della guerra giusta, della saggezza, 
+                        delle strategie, ed è riconosciuta anche protettrice degli artigiani.
+                    </desc>
+                </item>
+                
+                <item n="2">
+                    <label n="2">
+                        <name xml:lang="fr" xml:id="jupiter">Jupiter</name>
+                        <name xml:lang="it" ref="#jupiter">Giove</name>
+                    </label>
+                    <desc corresp="#jupiter" xml:lang="it" source="https://it.wikipedia.org/wiki/Giove_(divinità)">
+                        Giove è il dio supremo (cioè il re di tutti gli dèi) della religione romana e italica, i cui simboli sono il
+                        fulmine e il tuono. 
+                    </desc>
+                </item>
+            </list>
+            <!--Lista e descrizione di tutte le persone nominate nel documento-->
+            <listPerson>
+                <person xml:id="FdS">
+                    <persName role="author">
+                        <ref target="https://viaf.org/viaf/95158205/"/>
+                        <forename>Ferdinand</forename>
+                        <surname>De Saussure</surname>
+                    </persName> 
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1857-11-26">26th November 1857</date>
+                        <placeName ref="#geneve">Geneve</placeName>
+                    </birth>
+                    <death>
+                        <date when="1913-02-22">22nd February 1913</date>
+                        <placeName ref="#VufflensleChateau">Vufflens-le-Château</placeName>
+                    </death>
+                </person>
+
+                <person xml:id="AC">
+                    <persName role="researcher">
+                        <forename>Alessandro</forename>
+                        <surname>Chidichimo</surname>
+                    </persName> 
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1976">1976</date>
+                        <placeName ref="#cosenza">Cosenza</placeName> 
+                    </birth>
+                    
+                </person>
+
+                <personGrp xml:id="SB_RE" role="transcribers">
+                    <persName corresp="#SB"></persName>
+                    <persName corresp="#RE"></persName>
+                </personGrp>
+
+
+                <person xml:id="SB">
+                    <persName role="transcriber">
+                        <ref target="http://viaf.org/viaf/100974817"/>
+                        <forename>Simon</forename>
+                        <surname>Bouquet</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1954-08-20">20th August 1954</date>
+                        <placeName>
+                            <country key="FR">France</country>
+                        </placeName>
+                    </birth>
+                </person>
+
+                <person xml:id="RE">
+                    <persName role="transcriber">
+                        <ref target="http://viaf.org/viaf/2500391"/>
+                        <forename>Rudolf</forename>
+                        <surname>Engler</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1930-10-25">25th October 1930</date>
+                        <placeName ref="#teufen">Teufen</placeName>
+                            
+                    </birth>
+                    <death>
+                        <date when="2003-09-05">5th September 2003</date>
+                    </death>
+                </person>
+
+                <person xml:id="TDM">
+                    <persName role="linguist">
+                        <ref target="https://viaf.org/viaf/108825971/"/>
+                        <forename>Tullio</forename>
+                        <surname>De Mauro</surname>
+                    </persName> 
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1932-03-31">31st March 1932</date>
+                        <placeName ref="#torreannunziata">Torre Annunziata</placeName>
+                    </birth>
+                    <death>
+                        <date when="2017-01-05">5th January 2017</date>
+                        <placeName ref="#roma">Roma</placeName>
+                    </death>
+                </person>
+
+                <person xml:id="EF">
+                    <persName role="translator">
+                        <ref target="http://viaf.org/viaf/101011384/"/>
+                        <forename>Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName> 
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1972-11-03">3rd November 1972</date>
+                        <placeName ref="#cagliari">Cagliari</placeName>
+                    </birth>
+                </person>
+
+                <person xml:id="ADG">
+                    <persName role="professor">
+                        <ref target="https://viaf.org/viaf/323148207835400342025"/>
+                        <forename>Angelo</forename>
+                        <forename>Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1980-02-19">19th February 1980</date>
+                        <placeName ref="#benevento">Benevento</placeName>
+                    </birth>
+                </person>
+
+                <personGrp xml:id="AS_DT" role="encoders">
+                    <persName corresp="#DT"></persName>
+                    <persName corresp="#AS"></persName>
+                </personGrp>
+
+                <person xml:id="AS">
+                    <persName role="encoder">
+                        <forename>Alessandra</forename>
+                        <surname>Scariot</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="2000-01-20">20th January 2000</date>
+                        <placeName ref="#livorno">Livorno</placeName>
+                    </birth>
+                </person>
+
+                <person xml:id="DT">
+                    <persName role="encoder">
+                        <forename>Daria</forename>
+                        <surname>Tarabori</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1993-03-10">10th March 1993</date>
+                        <placeName ref="#pisa">Pisa</placeName>
+                    </birth>
+                </person>
+
+            </listPerson>
+            <!--Lista dei luoghi geografici-->
+            <listPlace xml:lang="it">
+                <place xml:id="geneve">
+                    <placeName ref="https://www.geonames.org/2660646/geneve.html">Ginevra</placeName>
+                    <region>Ginevra</region>
+                    <country key="SW">Svizzera</country>
+                </place>
+
+                <place xml:id="VufflensleChateau">
+                    <placeName ref="https://it.wikipedia.org/wiki/Vufflens-le-Ch%C3%A2teau">Vufflens-le-Château</placeName>
+                    <region>Vaud</region>
+                    <country key="SW">Svizzera</country>
+                </place>
+
+                <place xml:id="teufen">
+                    <placeName ref="https://www.geonames.org/2658397/teufen.html">Teufen</placeName>
+                    <region>Appenzell Ausserrhoden</region>
+                    <country key="SW">Svizzera</country>
+                </place>
+
+                <place xml:id="benevento">
+                    <placeName ref="https://www.geonames.org/3182178/provincia-di-benevento.html">Benevento</placeName>
+                    <region>Campania</region>
+                    <country key="IT">Italia</country>
+                </place>
+                
+                <place xml:id="pisa">
+                    <placeName ref="https://www.geonames.org/3170647/pisa.html">Pisa</placeName>
+                    <region>Toscana</region>
+                    <country key="IT">Italia</country>
+                </place>
+
+                <place xml:id="livorno">
+                    <placeName ref="https://www.geonames.org/3174659/livorno.html">Livorno</placeName>
+                    <region>Toscana</region>
+                    <country key="IT">Italia</country>
+                </place>
+
+                <place xml:id="cagliari">
+                    <placeName ref="https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
+                    <region>Sardegna</region>
+                    <country key="IT">Italia</country>
+                </place>
+
+                <place xml:id="torreannunziata">
+                    <placeName ref="https://www.geonames.org/3165475/torre-annunziata.html">Torre Annunziata</placeName>
+                    <region>Campania</region>
+                    <country key="IT">Italia</country>
+                </place>
+
+                <place xml:id="roma">
+                    <placeName ref="https://www.geonames.org/3169070/rome.html">Roma</placeName>
+                    <region>Lazio</region>
+                    <country key="IT">Italia</country>
+                </place>
+
+                <place xml:id="bari">
+                    <placeName ref="https://www.geonames.org/3182351/bari.html">Bari</placeName>
+                    <region>Puglia</region>
+                    <country key="IT">Italia</country>
+                </place>
+
+                <place xml:id="cosenza">
+                    <placeName ref="https://www.geonames.org/2524907/cosenza.html">Cosenza</placeName>
+                    <region>Calabria</region>
+                    <country key="IT">Italia</country>
+                </place>
+            </listPlace>
+
+        </back>
+    </text>
+</TEI>
